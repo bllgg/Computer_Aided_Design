@@ -1,0 +1,62 @@
+Airplane
+   Fuselage
+      Cockpit
+      Cabin
+   Wings
+      LeftWing
+         Engine 1
+         Engine 2
+         Flaps
+         Aileron
+      RightWing
+         Engine 1
+         Engine 2
+         Flaps
+         Aileron
+   Tail
+      Tailplane
+      Elevator
+      Rudder
+      Fin
+{"name":"Airplane","children":[{"name":"Fuselage","children":[{"name":"Cockpit","width":"15","length":"15"},{"name":"Cabin","windows":"25","seats":"250"}]},{"name":"Wings","children":[{"name":"LeftWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]},{"name":"RightWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]}]},{"name":"Tail","children":[{"name":"Tailplane"},{"name":"Elevator"},{"name":"Rudder"},{"name":"Fin"}]}]}
+
+LeftWing
+   Engine 1
+   Engine 2
+   Flaps
+   Aileron
+{"name":"LeftWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]}
+
+RightWing
+   Engine 1
+   Engine 2
+   Flaps
+   Aileron
+{"name":"RightWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]}
+
+Cabin
+{"name":"Cabin","windows":"25","seats":"250"}
+
+Cockpit
+{"name":"Cockpit","width":"15","length":"15"}
+
+Tail
+   Tailplane
+   Elevator
+   Rudder
+   Fin
+{"name":"Tail","children":[{"name":"Tailplane"},{"name":"Elevator"},{"name":"Rudder"},{"name":"Fin"}]}
+
+Wings
+   LeftWing
+      Engine 1
+      Engine 2
+      Flaps
+      Aileron
+   RightWing
+      Engine 1
+      Engine 2
+      Flaps
+      Aileron
+{"name":"Wings","children":[{"name":"LeftWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]},{"name":"RightWing","children":[{"name":"Engine 1"},{"name":"Engine 2"},{"name":"Flaps"},{"name":"Aileron"}]}]}
+

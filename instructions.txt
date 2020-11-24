@@ -1,0 +1,11 @@
+INSTRUCTIONS
+
+1. If you must need codeblocks, open the given project in codeblocks IDE.
+
+2. Simply copy the codes to particular files except main.cpp
+
+3. Run the code.
+
+4. If you don't need codeblocks just follow the video.
+
+		Enjoy !!!
